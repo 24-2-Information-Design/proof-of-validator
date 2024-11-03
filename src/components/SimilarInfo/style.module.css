@@ -1,0 +1,144 @@
+.RadarContainer{
+    width: 285px;
+    height: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.sliderContainer {
+    max-width: 255px;
+    height: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0px;
+
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+}
+
+.sliderWrapper {
+    flex: 3;
+    width: 150px;
+    display: flex;
+}
+
+.slider {
+    width: 150px;
+}
+
+.value {
+    width: 40px;
+    flex: 1;
+    margin-left: 20px;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.similarContainer {
+    width: 285px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-height: 190px;
+    overflow-y: auto;
+}
+
+.valContainer {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    border-top: 0.05px solid #ddd;
+}
+
+.valLabel {
+    width: 100%;
+    display: inline-block;
+}
+
+.index, .voter {
+    font-size: 14px;
+}
+
+.index {
+    min-width: 30px;
+    max-width: 30px;
+    display: inline-block;
+}
+
+.font {
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.voter {
+    font-weight: bold;
+    margin-left: 0px;
+}
+
+.finalScore {
+    font-size: 10px;
+    padding: 2px 5px;
+    border-radius: 4px;
+    float: right;
+}
+
+.color_one {
+    background-color: #58A270;
+    opacity: 0.8;
+    color: white;
+}
+
+.color_two {
+    background-color: #A7D96A;
+    opacity: 0.8;
+    color: white;
+}
+
+.color_three {
+    background-color: #FDAE61;
+    opacity: 0.8;
+    color: white;
+}
+
+.color_four {
+    background-color: #F8877D;
+    opacity: 0.8;
+    color: white;
+}
+
+.scoreBarContainer {
+    display: flex;
+    flex-direction: row;
+    width: 280px;
+    margin-top: 5px;
+}
+
+.scoreLabel {
+    margin-left: 30px;
+    max-width: 80px;
+    min-width: 80px;
+    font-size: 12px;
+}
+
+.scoreBar {
+    height: 10px;
+    min-width: 0px;
+    max-width: 105px;
+    border-radius: 5px;
+}
+
+.inScoreBar {
+    width: calc(var(--in-score) * 1% * 0.35);
+    background-color: var(--bar-color);
+}
+
+.outScoreBar {
+    width: calc(var(--out-score) * 1% * 0.35);
+    background-color: var(--bar-color);
+}

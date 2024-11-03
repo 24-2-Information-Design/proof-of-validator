@@ -1,0 +1,46 @@
+.container {
+    width: 325px;
+    height: 420px;
+    padding-top: 10px;
+    padding-left: 14px;
+}
+
+.title {
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.label {
+    font-size: 12px;
+}
+
+.title, .label {
+    font-family: 'AppleSDGothicNeoT';
+    margin-right: 20px;
+}
+
+.RadHisDiv {
+    width: 250px;
+    height: 250px;
+    margin-top: -30px;
+}
+
+.infoContainer {
+    width: 305px;
+    height: 160px;
+}
+
+.info {
+    margin-top: 3px;
+    width: 305px;
+    height: 20px;
+}
+
+.dropdown {
+    height: 20px;
+    width: 215px;
+
+    border: none;
+    background-color: #F9F9F9;
+    border-radius: 30px;
+}

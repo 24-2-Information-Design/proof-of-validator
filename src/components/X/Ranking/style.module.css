@@ -1,0 +1,119 @@
+.container {
+    width: 210px;
+    height: 425px;
+    padding-left: 14px;
+    padding-top: 10px;
+}
+
+.legendContainer {
+    width: 182px;
+    height: 35px;
+
+    padding-top: 5px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.legendSpan {
+    display: flex;
+    flex-direction: row;
+}
+
+.legend {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3px;
+    margin-left: 1px;
+    font-size: 10px;
+}
+
+.Contribution {
+    background-color: #8E67FF;
+}
+
+.Stability {
+    background-color: #5B89FF;
+    margin-left: 4px;
+}
+
+.Popularity {
+    background-color: #54B7FF;
+    margin-left: 4px;
+}
+
+.Commission {
+    background-color: #3ADCFF;
+}
+
+.Period {
+    background-color: #1AF3E6;
+    margin-left: 6.5px;
+}
+
+.Contribution, .Stability, .Popularity, .Commission, .Period {
+    width: 10px;
+    height: 10px;
+    border: none;
+    margin-right: 3px;
+}
+
+.RankingContainer {
+    width: 196px;
+    height: 230px;
+    overflow-y: scroll;
+}
+
+.RankingContainerExpanded {
+    width: 196px;
+    height: 455px;
+    overflow-y: scroll;
+}
+
+.StackedBarChartContainer {
+    width: 196px;
+    height: 40px;
+}
+
+.rank {
+    font-size: 13px;
+    color: gray;
+}
+
+.valName {
+    font-size: 13px;
+    margin-left: 15px;
+    margin-right: 0.5rem;
+}
+
+.score {
+    height: 10px;
+    width: 25px;
+    float: right;
+
+    color: gray;
+    background: #f0f0f0;
+
+    font-size: 8px;
+    border-radius: 5px;
+    
+    padding-top: 2px;
+    padding-left: 5px;
+    margin-right: 10px;
+}
+
+.StackedBarChart {
+    display: flex;
+    overflow: hidden;
+    width: 184px;
+}
+
+.segment {
+    height: 10px;
+}
+
+.cont { background-color: #8a2be2; }
+.stab { background-color: #0000ff; }
+.pop { background-color: #1e90ff; }
+.comm { background-color: #00bfff; }
+.per { background-color: #40e0d0; }

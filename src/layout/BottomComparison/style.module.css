@@ -1,0 +1,23 @@
+.BottomComparison{
+    width: 1180px;
+    height: 250px;
+
+    flex-direction: row;
+    display: flex;
+}
+
+.LineContainer, .TableContainer{
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.LineContainer{
+    width: 460px;
+}
+
+.TableContainer{
+    width: 650px;
+}
